@@ -16,7 +16,6 @@ for line in fhand:
             
     else:
         atpos = words[1].find('@')       # Position of '@'
-        sppos = words[1].find(' ',atpos)    #Position space after @
         domain = words[1][atpos+1:]       # Store characters after '@'
         
         if domain not in counts:

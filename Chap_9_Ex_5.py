@@ -24,3 +24,4 @@ for line in fhand:
             counts[domain] += 1               # Additional counts
             
 print(counts)
+

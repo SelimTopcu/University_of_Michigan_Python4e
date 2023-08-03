@@ -1,5 +1,13 @@
-#Exercise 1: Change the socket program socket1.py to prompt the user for the URL so it can read any web page. You can use split('/') to break the URL into its component parts so you can extract the host name for the socket connect call. Add error checking using try and except to handle the condition where the user enters an improperly formatted or non-existent URL.
+#Exploring the HyperText Transport Protocol
 
+#You are to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
+
+#http://data.pr4e.org/intro-short.txt
+#There are three ways that you might retrieve this web page and look at the response headers:
+
+#Preferred: Modify the socket1.py program to retrieve the above URL and print out the headers and data. Make sure to change the code to retrieve the above URL - the values are different for each URL.
+#Open the URL in a web browser with a developer console or FireBug and manually examine the headers that are returned.
+#Enter the header values in each of the fields below and press "Submit".
 import socket
 
 url = input('Enter the URL: ')
